@@ -19,10 +19,10 @@ export class NavbarComponent implements OnInit {
   }
 
   itemSelected(event: any): void {
-    this.renderer.addClass(event.target, 'active');
-
     const navLinkElements = this.elementRef.nativeElement.querySelectorAll('.nav-link');
     navLinkElements.forEach((e: any) => this.renderer.removeClass(e, 'active'));
+
+    this.renderer.addClass(event.target, 'active');
 
     this.showMenu();
   }

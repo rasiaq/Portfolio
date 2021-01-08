@@ -64,3 +64,31 @@
 .hide {
     right: -100%;
 }
+
+@media screen and (min-width: 768px) {
+    .nav {
+        height: calc(var(--header-height) + 1rem);
+    }
+
+    .nav-list {
+        display: flex;
+        padding-top: 0;
+    }
+
+    .nav-item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-link {
+        color: var(--second-color);
+    }
+
+    .nav-link:hover {
+        border-bottom: 2px solid var(--first-color);
+    }
+}
