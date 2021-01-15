@@ -7,7 +7,7 @@ import { Component, OnInit, Renderer2, ElementRef } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  menuVisible: boolean = false;
+  menuVisible = false;
 
   constructor(private renderer: Renderer2, private elementRef: ElementRef) { }
 
