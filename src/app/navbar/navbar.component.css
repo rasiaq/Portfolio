@@ -38,11 +38,6 @@
     color: #ffffff;
 }
 
-.nav-link:hover {
-    position: relative;
-    border-bottom: 1px solid #ffffff;
-}
-
 .nav-logo {
     color: var(--second-color);
 }
@@ -53,9 +48,6 @@
     cursor: pointer;
 }
 
-.active {
-    border-bottom: 2px solid #ffffff;
-}
 
 .show {
     right: 0;
@@ -89,6 +81,6 @@
     }
 
     .nav-link:hover {
-        border-bottom: 2px solid var(--first-color);
+        color: var(--first-color);
     }
 }
