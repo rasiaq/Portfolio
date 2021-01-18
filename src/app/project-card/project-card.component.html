@@ -1,7 +1,9 @@
 <div class="main-container">
-    <div class="content">
-        <img src="{{card.icon}}" alt="" class="card-img">
-        <h2 class="title">{{card.title}}</h2>
-        <p class="description">{{card.description}}</p>
-    </div>
+    <a routerLink="{{card.link}}">
+        <div class="content">
+            <img src="{{card.icon}}" alt="" class="card-img">
+            <h2 class="title">{{card.title}}</h2>
+            <p class="description">{{card.description}}</p>
+        </div>
+    </a>
 </div>
