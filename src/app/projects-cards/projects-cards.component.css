@@ -14,3 +14,7 @@
 .content {
     margin-bottom: 1rem;
 }
+
+.section-title:after {
+    width: 110px;
+}

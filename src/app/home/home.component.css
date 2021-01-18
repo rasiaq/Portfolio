@@ -1,5 +1,5 @@
 .home {
-    margin-top: calc(var(--header-height) + 1rem);
+    padding-top: calc(var(--header-height) + 1rem);
     row-gap: 1rem;
 }
 
