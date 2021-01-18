@@ -1,0 +1,9 @@
+<div class="content">
+    <h2 class="section-title">Projekty</h2>
+    
+    <div class="grid">
+        <ng-container *ngFor="let card of cards">
+            <app-project-card [card]="card"></app-project-card>
+        </ng-container>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ProjectCard } from '../project-card';
 
 @Component({
@@ -8,7 +8,8 @@ import { ProjectCard } from '../project-card';
 })
 export class ProjectCardComponent implements OnInit {
 
-  cards: ProjectCard[] = [];
+  @Input()
+  card!: ProjectCard;
 
   constructor() { }
 
