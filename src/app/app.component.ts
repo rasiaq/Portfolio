@@ -9,8 +9,7 @@ import {NgsRevealConfig} from 'ngx-scrollreveal';
 export class AppComponent {
   title = 'ang-portfolio';
   constructor(config: NgsRevealConfig) {
-    config.duration = 800;
+    config.duration = 1500;
     config.easing = 'cubic-bezier(0.645, 0.045, 0.355, 1)';
-    config.reset = true;
   }
 }
