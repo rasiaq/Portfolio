@@ -13,6 +13,8 @@ import { AstroviewComponent } from './projects-components/astroview/astroview.co
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
+import {NgsRevealModule} from 'ngx-scrollreveal';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgsRevealModule
   ],
   providers: [],
   bootstrap: [AppComponent]
