@@ -11,7 +11,7 @@
     --body-font: 'Poppins', sans-serif;
     --large-font-size: 2rem; /* wartość root size */
     --h2-font-size: 1.25rem;
-    --normal-font-size: 0.938rem;
+    --normal-font-size: 1.1rem;
 }
 
 @media screen and (min-width: 768px) {

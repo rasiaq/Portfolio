@@ -30,6 +30,19 @@
     line-height: 1.6rem;
 }
 
+.status {
+    padding: 0 1rem .5rem 1rem;
+    text-align: justify;
+}
+
+.finished {
+    color: rgb(2, 145, 2);
+}
+
+.in-progress {
+    color: rgb(207, 136, 4);
+}
+
 a {
     color: var(--second-color);
 }

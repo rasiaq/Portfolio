@@ -3,4 +3,6 @@ export interface ProjectCard {
     readonly title: string;
     readonly description: string;
     readonly link: string;
+    readonly techs: string;
+    readonly status: string;
 }
