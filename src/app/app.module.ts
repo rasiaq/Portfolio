@@ -10,6 +10,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectsCardsComponent } from './projects-cards/projects-cards.component';
 import { AstroviewComponent } from './projects-components/astroview/astroview.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AstroviewComponent } from './projects-components/astroview/astroview.co
     SkillsComponent,
     ProjectCardComponent,
     ProjectsCardsComponent,
-    AstroviewComponent
+    AstroviewComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

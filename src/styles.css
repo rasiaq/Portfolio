@@ -69,6 +69,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--second-color);
 }
 
 img {
@@ -80,10 +81,10 @@ img {
     position: relative;
     font-size: 1.5rem;
     color: var(--first-color);
-    margin-top: var(--mb-2);
+    /* margin-top: var(--mb-2); */
     margin-bottom: var(--mb-4);
     text-align: center;
-    margin-top: var(--header-height);
+    padding-top: var(--header-height);
 }
 
 .section-title::after {
@@ -91,16 +92,11 @@ img {
     content: "";
     width: 64px;
     height: 0.18rem;
-    top: 2.5rem;
+    top: 5.5rem;
     left: 0rem;
     right: 0;
     margin: auto;
     background-color: var(--first-color);
-}
-
-.section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,7 +105,7 @@ img {
     }
 
     .section {
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
     }
 
     .section-title {
@@ -118,7 +114,7 @@ img {
 
     .section-title::after {
         width: 80px;
-        top: 3rem;
+        top: 6rem;
     }
 }
 
