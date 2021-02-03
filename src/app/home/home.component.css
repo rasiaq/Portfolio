@@ -56,7 +56,7 @@ img {
 }
 
 
-/* BUTTONS */
+
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -64,6 +64,7 @@ img {
     padding: .75rem 3rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
+    margin-bottom: 1rem;
 }
 
 .button:hover {
