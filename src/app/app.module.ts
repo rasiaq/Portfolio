@@ -11,6 +11,7 @@ import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectsCardsComponent } from './projects-cards/projects-cards.component';
 import { AstroviewComponent } from './projects-components/astroview/astroview.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     ProjectCardComponent,
     ProjectsCardsComponent,
     AstroviewComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
