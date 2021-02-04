@@ -9,7 +9,6 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { ProjectsCardsComponent } from './projects-cards/projects-cards.component';
-import { AstroviewComponent } from './projects-components/astroview/astroview.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -24,7 +23,6 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
     SkillsComponent,
     ProjectCardComponent,
     ProjectsCardsComponent,
-    AstroviewComponent,
     ContactComponent,
     FooterComponent
   ],
