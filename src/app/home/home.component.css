@@ -9,6 +9,10 @@
         align-items: center;
     }
 
+    .home {
+        padding-top: calc(var(--header-height) + 1rem);
+    }
+
     .home-data {
         text-align: initial !important;
     }

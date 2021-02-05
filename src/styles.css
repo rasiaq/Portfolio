@@ -77,6 +77,10 @@ img {
     height: auto;
 }
 
+.section {
+    padding-top: var(--header-height);
+}
+
 .section-title {
     position: relative;
     font-size: 1.5rem;
@@ -84,7 +88,6 @@ img {
     /* margin-top: var(--mb-2); */
     margin-bottom: var(--mb-4);
     text-align: center;
-    padding-top: var(--header-height);
 }
 
 .section-title::after {
@@ -92,7 +95,7 @@ img {
     content: "";
     width: 64px;
     height: 0.18rem;
-    top: 5.5rem;
+    top: 2.5rem;
     left: 0rem;
     right: 0;
     margin: auto;
@@ -104,14 +107,17 @@ img {
         margin: 0;
     }
 
-    .section-title {
+    .section {
         padding-top: calc(var(--header-height) + 1rem);
+    }
+
+    .section-title {
         margin-bottom: var(--mb-6);
     }
 
     .section-title::after {
         width: 80px;
-        top: 7rem;
+        top: 3rem;
     }
 }
 
