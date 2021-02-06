@@ -5,7 +5,7 @@ import { AstroviewComponent } from './_projects/astroview/astroview.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'astroview', component: AstroviewComponent },
+  { path: 'projects/astroview', component: AstroviewComponent },
   { path: '**', redirectTo: '' }
 ];
 
