@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
 
   menuVisible = false;
+  SCROLL_TIMEOUT = 100;
 
   constructor(private router: Router) { }
 
@@ -18,11 +19,18 @@ export class NavbarComponent implements OnInit {
   scroll(target: string): void {
     if (this.router.url.includes('#') || this.router.url == '/') {
       const element = document.querySelector('#' + target);
-      console.log(element);
       if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else {
-      this.router.navigate(['/'], { fragment: target });
+      this.router.navigate(['/']).then(
+        () => {
+          setTimeout(() => {
+            const element = document.querySelector('#' + target);
+            if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, this.SCROLL_TIMEOUT)
+        }
+      );
     }
+    this.menuVisible = !this.menuVisible;
   }
 
   showSidebar(): void {
