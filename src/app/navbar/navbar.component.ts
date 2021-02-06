@@ -14,6 +14,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll(target: string): void {
+    const element = document.querySelector(target);
+    if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   itemSelected(): void {
     this.menuVisible = !this.menuVisible;
   }
