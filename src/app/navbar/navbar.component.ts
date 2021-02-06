@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -9,14 +10,19 @@ export class NavbarComponent implements OnInit {
 
   menuVisible = false;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
   scroll(target: string): void {
-    const element = document.querySelector(target);
-    if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (this.router.url.includes('#') || this.router.url == '/') {
+      const element = document.querySelector('#' + target);
+      console.log(element);
+      if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      this.router.navigate(['/'], { fragment: target });
+    }
   }
 
   showSidebar(): void {

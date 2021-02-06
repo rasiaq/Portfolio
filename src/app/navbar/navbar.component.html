@@ -1,15 +1,15 @@
 <header class="header">
     <nav class="nav grid">
         <div>
-            <a (click)="scroll('#home')" class="nav-logo">Rasiński</a>
+            <a (click)="scroll('home')" class="nav-logo">Rasiński</a>
         </div>
 
         <div class="nav-menu" id="navmenu" [ngClass]="menuVisible ? 'show' : 'hide'">
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link active" (click)="scroll('#about')">O mnie</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="scroll('#skills')">Umiejętności</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="scroll('#projects')">Projekty</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="scroll('#contact')">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link active" (click)="scroll('about')">O mnie</a></li>
+                <li class="nav-item"><a class="nav-link" (click)="scroll('skills')">Umiejętności</a></li>
+                <li class="nav-item"><a class="nav-link" (click)="scroll('projects')">Projekty</a></li>
+                <li class="nav-item"><a class="nav-link" (click)="scroll('contact')">Kontakt</a></li>
             </ul>
         </div>
 
