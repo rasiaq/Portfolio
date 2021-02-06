@@ -1,7 +1,7 @@
 <header class="header">
     <nav class="nav grid">
         <div>
-            <a href="#home" class="nav-logo">Rasiński</a>
+            <a (click)="scroll('#home')" class="nav-logo">Rasiński</a>
         </div>
 
         <div class="nav-menu" id="navmenu" [ngClass]="menuVisible ? 'show' : 'hide'">
@@ -13,7 +13,7 @@
             </ul>
         </div>
 
-        <div class="nav-toggle" id="navtoggle" (click)="itemSelected()">
+        <div class="nav-toggle" id="navtoggle" (click)="showSidebar()">
             <i class="bx bx-menu"></i>
         </div>
     </nav>

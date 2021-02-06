@@ -41,6 +41,7 @@
 
 .nav-logo {
     color: var(--second-color);
+    cursor: pointer;
 }
 
 .nav-toggle {

@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
     if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  itemSelected(): void {
+  showSidebar(): void {
     this.menuVisible = !this.menuVisible;
   }
 
