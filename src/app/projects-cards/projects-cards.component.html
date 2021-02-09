@@ -1,9 +1,9 @@
 <div class="section content">
     <h2 class="section-title">Projekty</h2>
     
-    <div class="grid" ngsReveal>
-        <ng-container *ngFor="let card of cards">
-            <app-project-card [card]="card"></app-project-card>
+    <div class="grid">
+        <ng-container *ngFor="let card of cards" [ngsRevealSet]="{reset: false}" [ngsInterval]="250" [ngsSelector]="'.card-item'">
+            <app-project-card [card]="card" class="card-item"></app-project-card>
         </ng-container>
     </div>
 </div>

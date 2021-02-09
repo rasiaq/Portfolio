@@ -4,7 +4,7 @@
     <div class="skills-container grid">
         <div style="margin-bottom: 1.5rem;">
             <h2 class="skills-subtitle">Języki i technologie</h2>
-            <div class="subgrid skills-data" ngsReveal>
+            <div class="subgrid skills-data" [ngsRevealSet]="{reset: false}" [ngsInterval]="70" [ngsSelector]="'.skills-names'">
                 <div class="skills-names">
                     <i class="bx bxl-html5 skills-icon"></i>
                     <span class="skills-name">HTML</span>
