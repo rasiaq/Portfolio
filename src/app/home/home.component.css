@@ -20,6 +20,10 @@
     img {
         width: 100% !important;
     }
+
+    .home-social-icon {
+        margin-left: 0 !important;
+    }
 }
 
 .home-data {
@@ -43,6 +47,7 @@
 .home-social-icon {
     width: max-content;
     margin-right: var(--mb-2);
+    margin-left: var(--mb-2);
     font-size: 2.5rem;
     color: var(--second-color);
 }
