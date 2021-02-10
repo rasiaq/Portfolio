@@ -30,7 +30,9 @@ export class NavbarComponent implements OnInit {
         }
       );
     }
-    this.menuVisible = !this.menuVisible;
+    if (this.menuVisible) {
+      this.menuVisible = false;
+    }
   }
 
   showSidebar(): void {
