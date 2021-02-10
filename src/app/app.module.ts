@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
 import {NgsRevealModule} from 'ngx-scrollreveal';
+import { PortfolioComponent } from './_projects/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
     ProjectCardComponent,
     ProjectsCardsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
