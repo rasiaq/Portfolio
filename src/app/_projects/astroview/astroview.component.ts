@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-astroview',
   templateUrl: './astroview.component.html',
-  styleUrls: ['./astroview.component.css', '../../../project-styles.css']
+  styleUrls: ['./astroview.component.css', '../project-styles.css']
 })
 export class AstroviewComponent implements OnInit {
 

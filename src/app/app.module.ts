@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import {NgsRevealModule} from 'ngx-scrollreveal';
 import { PortfolioComponent } from './_projects/portfolio/portfolio.component';
 import { SzlakownikComponent } from './_projects/szlakownik/szlakownik.component';
+import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SzlakownikComponent } from './_projects/szlakownik/szlakownik.component
     ContactComponent,
     FooterComponent,
     PortfolioComponent,
-    SzlakownikComponent
+    SzlakownikComponent,
+    PlantRunnerComponent
   ],
   imports: [
     BrowserModule,

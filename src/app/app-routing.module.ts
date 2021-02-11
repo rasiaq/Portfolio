@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AstroviewComponent } from './_projects/astroview/astroview.component';
+import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.component';
 import { PortfolioComponent } from './_projects/portfolio/portfolio.component';
 import { SzlakownikComponent } from './_projects/szlakownik/szlakownik.component';
 
@@ -10,6 +11,7 @@ const routes: Routes = [
   { path: 'projects/astroview', component: AstroviewComponent },
   { path: 'projects/portfolio', component: PortfolioComponent },
   { path: 'projects/szlakownik', component: SzlakownikComponent },
+  { path: 'projects/plant-runner', component: PlantRunnerComponent },
   { path: '**', redirectTo: '' }
 ];
 
