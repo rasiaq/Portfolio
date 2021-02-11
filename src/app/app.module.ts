@@ -16,6 +16,7 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
 import { PortfolioComponent } from './_projects/portfolio/portfolio.component';
 import { SzlakownikComponent } from './_projects/szlakownik/szlakownik.component';
 import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.component';
+import { LawFirmWebsiteComponent } from './_projects/law-firm-website/law-firm-website.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.comp
     FooterComponent,
     PortfolioComponent,
     SzlakownikComponent,
-    PlantRunnerComponent
+    PlantRunnerComponent,
+    LawFirmWebsiteComponent
   ],
   imports: [
     BrowserModule,
