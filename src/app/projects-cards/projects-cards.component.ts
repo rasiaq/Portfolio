@@ -52,7 +52,7 @@ export class ProjectsCardsComponent implements OnInit {
       icon: '../../assets/astroview-img/icon.png',
       title: 'Strona Netalyze',
       description: 'Strona wydziałowego koła naukowego Netalyze na Politechnice Wrocławskiej.',
-      link: 'projects/law-firm-website',
+      link: 'projects/netalyze-website',
       techs: 'Angular',
       status: 'W fazie projektowania'
     },

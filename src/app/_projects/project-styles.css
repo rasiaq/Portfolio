@@ -32,6 +32,15 @@ p {
     text-align: justify; /* nie wiem jeszcze */
 }
 
+.separator {
+    margin: auto;
+    height: 1px;
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightgrey;
+}
+
 ul {
     text-align: initial;
     list-style-type: disc;
@@ -87,6 +96,16 @@ ul li {
 
     .description {
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom-section {
+        align-self: initial !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pic-wrapper {
+        margin-top: 2rem;
     }
 }

@@ -2,9 +2,6 @@
     <h2 class="header">Portfolio</h2>
 
     <div class="container grid">
-        <div class="grid-item">
-            <img src="../../assets/astroview-img/icon.png" alt="" class="app-icon">
-        </div>
         <div class="description grid-item">
             <p>
                 <span class="app-name">Portfolio</span> pierwotnie miało służyć mi wyłącznie w celach reprezentacyjnych,
@@ -19,6 +16,12 @@
                 </a>
             </div>
         </div>
+        <div class="grid-item">
+            <img src="../../assets/astroview-img/icon.png" alt="" class="app-icon">
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="container grid">
         <div class="description grid-item">
             <p>
                 Pierwotnie zainspirowałem się tutorialem na YouTube, z którego zaczerpnąłem pomysł na navbar oraz dwie
@@ -28,8 +31,10 @@
                 Dla uatrakcyjnienia skorzystałem z biblioteki <a
                     href="https://github.com/jlmakes/scrollreveal">ScrollReveal</a>, która nadała elementom animacje
                 odsłaniania.<br>
-                Najważniejsze elementy, które udało się zrealizować w ramach projektu to:
             </p>
+        </div>
+        <div class="description grid-item">
+            <p>Najważniejsze elementy, które udało się zrealizować w ramach projektu to:</p>
             <ul>
                 <li><b>Stworzenie w pełni responsywnego widoku, opartego na grid layout</b></li>
                 <li><b>Wykorzystanie routingu do nawigacji między komponentami</b></li>
@@ -37,8 +42,11 @@
                     i *ngIf oraz mechanizmu przekazywania danych między komponentami</li>
             </ul>
         </div>
-        <div class="grid-item mockup-wrapper">
-            <img src="../../assets/astroview-img/signin-mockup.png" alt="" class="mockup">
-        </div>
+    </div>
+    <div>
+        <picture class="pic-wrapper">
+            <source media="(min-width: 768px)" srcset="../../assets/szlakownik/mockup.png">
+            <img src="../../assets/szlakownik/mobile-mockup.png" alt="" class="mockup pic-wrapper">
+        </picture>
     </div>
 </div>

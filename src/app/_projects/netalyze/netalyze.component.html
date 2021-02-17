@@ -1,1 +1,53 @@
-<p>netalyze works!</p>
+<div class="outer">
+    <h2 class="header">Netalyze website</h2>
+    <div class="container grid">
+        <div class="description grid-item">
+            <p>
+                <span class="app-name">Szlakownik</span> to aplikacja webowa zrealizowana w trzyosobowym zespole, w
+                ramach
+                projektu zaliczeniowego kursu z projektowania oprogramowania. Została ona stworzona na podstawie wizji
+                systemu, opracowanej w trakcie analizy biznesowej i systemowej, w której zawarty był projekt
+                architektury systemu i interfejsu użytkownika.
+            </p>
+            <div class="link-wrapper">
+                <a href="https://github.com/rasiaq/AstroView" class="link" target="_blank">
+                    <i class='bx bxl-github icon'></i>
+                    Repozytorium na Githubie
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="../../assets/astroview-img/icon.png" alt="" class="app-icon">
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="container grid">
+        <div class="description grid-item bottom-section">
+            <p>
+                Sam proces implementacyjny przebiegał na dwóch płaszczyznach - frontend aplikacji pisany był w
+                Angularze, natomiast backend w pythonie z użyciem Flask API. <br>
+                Wszystkie dane, na których operowała
+                aplikacja, zawarte były w bazie danych sqlite. System wymagał od użytkowników utworzenia konta, a proces
+                autoryzacji odbywał się przy pomocy serwisów komunikujących się z backendem. Zaimplementowane przez nas
+                funkcjonalności to głównie rozbudowane formularze z walidacją, zbudowane przy użyciu Angular Reactive
+                Forms. <br>
+            </p>
+        </div>
+        <div class="description grid-item bottom-section">
+            <p>Pracowałem przy tworzeniu frontendu aplikacji, a do moich zadań należały:</p>
+            <ul>
+                <li><b>Zaimplementowanie serwisów komunikujących się z backendem za pomocą zapytań</b></li>
+                <li><b>Wprowadzenie mechanizmu autoryzacji i ograniczenie dostępu dla niezalogowanych użytkowników</b></li>
+                <li><b>Zbudowanie formularzy z walidacją pól i obsługą błędów</b></li>
+                <li><b>Obsługa routingu do nawigacji między komponentami</b></li>
+                <li><b>Utworzenie responsywnego układu strony</b></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <picture class="pic-wrapper">
+            <source media="(min-width: 768px)" srcset="../../assets/netalyze/mockup.png">
+            <img src="../../assets/netalyze/mobile-mockup.png" alt="" class="mockup pic-wrapper">
+        </picture>
+    </div>
+</div>
