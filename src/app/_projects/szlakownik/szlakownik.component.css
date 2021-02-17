@@ -1,3 +1,11 @@
-.mockup {
-    height: 37rem !important;
+@media screen and (min-width: 1024px) {
+    .bottom-section {
+        align-self: initial !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pic-wrapper {
+        margin-top: 2rem;
+    }
 }
