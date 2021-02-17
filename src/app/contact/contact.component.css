@@ -2,6 +2,10 @@
     width: 100px;
 }
 
+.section {
+    padding-bottom: 3rem;
+}
+
 .description {
     text-align: center;
 }
