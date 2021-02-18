@@ -25,7 +25,7 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'Ukończony'
     },
     {
-      icon: '../../assets/astroview-img/icon.png',
+      icon: '../../assets/szlakownik/icon.png',
       title: 'Szlakownik',
       description: 'Zespołowy projekt aplikacji webowej dla miłośników turystyki górskiej!',
       link: 'projects/szlakownik',
@@ -33,7 +33,7 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'Ukończony'
     },
     {
-      icon: '../../assets/astroview-img/icon.png',
+      icon: '../../assets/plantrunner/icon.png',
       title: 'Plant Runner',
       description: 'Hybrydowa aplikacja mobilna, zachęcająca użytkowników do przemieszczania się pieszo.',
       link: 'projects/plant-runner',
@@ -41,7 +41,7 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'W trakcie'
     },
     {
-      icon: '../../assets/astroview-img/icon.png',
+      icon: '../../assets/law-firm-web/icon.png',
       title: 'Strona kancelarii',
       description: 'Zespołowy projekt strony internetowej w Angularze dla kancelarii prawnej.',
       link: 'projects/law-firm-website',
@@ -49,7 +49,7 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'Ukończony'
     },
     {
-      icon: '../../assets/astroview-img/icon.png',
+      icon: '../../assets/netalyze/icon.png',
       title: 'Strona Netalyze',
       description: 'Strona wydziałowego koła naukowego Netalyze na Politechnice Wrocławskiej.',
       link: 'projects/netalyze-website',
