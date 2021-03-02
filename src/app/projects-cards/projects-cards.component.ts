@@ -19,7 +19,7 @@ export class ProjectsCardsComponent implements OnInit {
     {
       icon: '../../assets/portfolio/icon.png',
       title: 'Portfolio',
-      description: 'Strona napisana w Angularze, która obecnie jest moim portfolio.',
+      description: 'Responsywna strona internetowa, napisana w Angularze, która obecnie jest moim portfolio.',
       link: 'projects/portfolio',
       techs: 'Angular',
       status: 'Ukończony'
@@ -33,20 +33,20 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'Ukończony'
     },
     {
-      icon: '../../assets/plantrunner/icon.png',
-      title: 'Plant Runner',
-      description: 'Hybrydowa aplikacja mobilna, zachęcająca użytkowników do przemieszczania się pieszo.',
-      link: 'projects/plant-runner',
-      techs: 'Ionic, Angular',
-      status: 'W trakcie'
-    },
-    {
       icon: '../../assets/law-firm-web/icon.png',
       title: 'Strona kancelarii',
       description: 'Zespołowy projekt strony internetowej w Angularze dla kancelarii prawnej.',
       link: 'projects/law-firm-website',
       techs: 'Angular, PrimeNG',
       status: 'Ukończony'
+    },
+    {
+      icon: '../../assets/plantrunner/icon.png',
+      title: 'Plant Runner',
+      description: 'Hybrydowa aplikacja mobilna, zachęcająca użytkowników do przemieszczania się pieszo.',
+      link: 'projects/plant-runner',
+      techs: 'Ionic, Angular',
+      status: 'W trakcie'
     },
     {
       icon: '../../assets/netalyze/icon.png',
