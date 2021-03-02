@@ -17,7 +17,7 @@ export class ProjectsCardsComponent implements OnInit {
       status: 'Ukończony'
     },
     {
-      icon: '../../assets/astroview-img/icon.png',
+      icon: '../../assets/portfolio/icon.png',
       title: 'Portfolio',
       description: 'Strona napisana w Angularze, która obecnie jest moim portfolio.',
       link: 'projects/portfolio',
