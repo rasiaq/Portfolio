@@ -5,12 +5,8 @@
             <h2 class="title">{{card.title}}</h2>
             <p class="description">{{card.description}}</p>
         </div>
-        <div class="status">
+        <div class="techs">
             <b>Technologie:</b> {{card.techs}}
-        </div>
-        <div class="status">
-            <b>Status:</b>
-            <span [ngClass]="(card.status === 'Ukończony') ? 'finished' : 'in-progress'"> {{card.status}}</span>
         </div>
     </a>
 </div>

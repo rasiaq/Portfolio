@@ -1,5 +1,6 @@
 .main-container {
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
     border-radius: .5rem;
     box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
     cursor: pointer;
@@ -29,16 +30,8 @@
     line-height: 1.6rem;
 }
 
-.status {
+.techs {
     padding: 0 1.5rem .5rem 1.5rem;
-}
-
-.finished {
-    color: rgb(2, 145, 2);
-}
-
-.in-progress {
-    color: rgb(207, 136, 4);
 }
 
 a {
