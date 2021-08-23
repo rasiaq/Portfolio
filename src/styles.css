@@ -5,8 +5,8 @@
     --header-height: 3rem;
     --font-semi: 600;
 
-    --first-color: #4070F4;
-    --second-color: #0E2431;
+    --first-color: #6d71f9;
+    --second-color: #272848;
 
     --body-font: 'Poppins', sans-serif;
     --large-font-size: 2rem; /* wartość root size */
@@ -51,6 +51,8 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
+    /* background-color: #eff0f8; */
+    background-color: #f7f7fb;
 }
 
 h1, h2, p {
@@ -81,7 +83,6 @@ img {
     position: relative;
     font-size: 1.5rem;
     color: var(--first-color);
-    /* margin-top: var(--mb-2); */
     margin-bottom: var(--mb-4);
     text-align: center;
 }

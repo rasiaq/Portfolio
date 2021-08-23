@@ -4,8 +4,8 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #ffffff;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
+    background-color: #f7f7fb;
+    /* box-shadow: 0 1px 4px rgba(146, 161, 176, .15); */
 }
 
 .nav {
@@ -37,6 +37,10 @@
     cursor: pointer;
     position: relative;
     color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #54c1fb;
 }
 
 .nav-logo {

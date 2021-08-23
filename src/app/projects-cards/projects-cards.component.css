@@ -15,6 +15,16 @@
     margin-top: .6rem;
 }
 
+.section {
+    background-color: #272848;
+    padding-bottom: 2rem;
+}
+
+.section-title {
+    color: #54c1fb;
+}
+
 .section-title:after {
     width: 110px;
+    background-color: #54c1fb;
 }

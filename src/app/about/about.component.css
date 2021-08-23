@@ -24,7 +24,7 @@
 
 .about-img {
     justify-self: center;
-
+    border-radius: .5rem;
 }
 
 .about-img img {

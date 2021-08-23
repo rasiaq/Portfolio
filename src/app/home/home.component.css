@@ -64,8 +64,6 @@ img {
     width: 300px;
 }
 
-
-
 .button {
     cursor: pointer;
     display: inline-block;
@@ -78,5 +76,5 @@ img {
 }
 
 .button:hover {
-    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 18px #6d71f9;
 }
