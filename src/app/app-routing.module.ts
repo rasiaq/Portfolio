@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WorkrateComponent } from './_projects/workrate/workrate.component';
-import { LawFirmWebsiteComponent } from './_projects/law-firm-website/law-firm-website.component';
+import { StayleanComponent } from './_projects/staylean/staylean.component';
 import { NetalyzeComponent } from './_projects/netalyze/netalyze.component';
 import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.component';
 import { PortfolioComponent } from './_projects/portfolio/portfolio.component';
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'projects/portfolio', component: PortfolioComponent },
   { path: 'projects/szlakownik', component: SzlakownikComponent },
   { path: 'projects/plant-runner', component: PlantRunnerComponent },
-  { path: 'projects/law-firm-website', component: LawFirmWebsiteComponent},
+  { path: 'projects/staylean', component: StayleanComponent},
   { path: 'projects/netalyze-website', component: NetalyzeComponent},
   { path: '**', redirectTo: '' }
 ];

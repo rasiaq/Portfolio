@@ -16,6 +16,13 @@ export class ProjectsCardsComponent implements OnInit {
       techs: 'Angular, Keycloak, Docker, Spring'
     },
     {
+      icon: '../../assets/staylean/icon.png',
+      title: 'stayLEAN',
+      description: 'Aplikacja mobilna do umawiania się na wydarzenia sportowe ze znajomymi!',
+      link: 'projects/staylean',
+      techs: 'Figma, Ionic/Flutter, ... (TBD)'
+    },
+    {
       icon: '../../assets/portfolio/icon.png',
       title: 'Portfolio',
       description: 'Responsywna strona internetowa, napisana w Angularze, która obecnie jest moim portfolio.',
@@ -27,14 +34,7 @@ export class ProjectsCardsComponent implements OnInit {
       title: 'Szlakownik',
       description: 'Zespołowy projekt aplikacji webowej dla miłośników turystyki górskiej!',
       link: 'projects/szlakownik',
-      techs: 'Angular, Python, Flask'
-    },
-    {
-      icon: '../../assets/law-firm-web/icon.png',
-      title: 'Strona kancelarii',
-      description: 'Zespołowy projekt strony internetowej w Angularze dla kancelarii prawnej.',
-      link: 'projects/law-firm-website',
-      techs: 'Angular, PrimeNG'
+      techs: 'Angular, Flask'
     },
     {
       icon: '../../assets/plantrunner/icon.png',

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LawFirmWebsiteComponent } from './law-firm-website.component';
+import { StayleanComponent } from './staylean.component';
 
-describe('LawFirmWebsiteComponent', () => {
-  let component: LawFirmWebsiteComponent;
-  let fixture: ComponentFixture<LawFirmWebsiteComponent>;
+describe('StayleanComponent', () => {
+  let component: StayleanComponent;
+  let fixture: ComponentFixture<StayleanComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LawFirmWebsiteComponent ]
+      declarations: [ StayleanComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LawFirmWebsiteComponent);
+    fixture = TestBed.createComponent(StayleanComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
