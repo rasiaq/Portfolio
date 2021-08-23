@@ -25,7 +25,7 @@
 
 /* Marginesy */
 :root {
-    --mb-1: 0.5rem; /* margin-bottom */
+    --mb-1: 0.5rem; 
     --mb-2: 1rem;
     --mb-3: 1.5rem;
     --mb-4: 2rem;
@@ -33,7 +33,6 @@
     --mb-6: 3rem;
 }
 
-/* z - index: pozycjonowanie elementów względem osi z */
 :root {
     --z-back: -10;
     --z-normal: -10;
@@ -41,7 +40,6 @@
     --z-fixed: 100;
 }
 
-/* Wkładanie kontentu na początek i koniec np. diva */
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -81,7 +79,6 @@ img {
     position: relative;
     font-size: 1.5rem;
     color: var(--first-color);
-    /* margin-top: var(--mb-2); */
     margin-bottom: var(--mb-4);
     text-align: center;
 }
@@ -118,13 +115,12 @@ img {
 }
 
 /* LAYOUT */
-/* Ręczne utworzenie gridu na stronie */
 .grid {
     max-width: 1024px;
     display: grid;
-    grid-template-columns: 100%; /* rozmiar kolumny */
+    grid-template-columns: 100%; 
     grid-column-gap: 2rem;
-    width:calc(100% - 2rem); /* dynamiczna szerokość */
+    width:calc(100% - 2rem); 
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
