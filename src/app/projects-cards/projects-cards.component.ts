@@ -10,10 +10,10 @@ export class ProjectsCardsComponent implements OnInit {
 
   cards: ProjectCard[] = [
     {
-      icon: '../../assets/astroview-img/icon.png', title: 'AstroView',
-      description: 'Aplikacja na platformę Android do sprawdzania horoskopu, pobierająca dane po API.',
-      link: 'projects/astroview',
-      techs: 'Android, Java'
+      icon: '../../assets/workrate/icon.png', title: 'Workrate',
+      description: 'Aplikacja webowa wykorzystująca FullCalendar, do organizacji swojego czasu',
+      link: 'projects/workrate',
+      techs: 'Angular, Keycloak, Docker, Spring'
     },
     {
       icon: '../../assets/portfolio/icon.png',

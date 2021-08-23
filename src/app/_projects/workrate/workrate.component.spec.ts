@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AstroviewComponent } from './astroview.component';
+import { WorkrateComponent } from './workrate.component';
 
-describe('AstroviewComponent', () => {
-  let component: AstroviewComponent;
-  let fixture: ComponentFixture<AstroviewComponent>;
+describe('WorkrateComponent', () => {
+  let component: WorkrateComponent;
+  let fixture: ComponentFixture<WorkrateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AstroviewComponent ]
+      declarations: [ WorkrateComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AstroviewComponent);
+    fixture = TestBed.createComponent(WorkrateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

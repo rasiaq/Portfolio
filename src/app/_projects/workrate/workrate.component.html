@@ -1,0 +1,60 @@
+<div class="outer">
+    <h2 class="header">Workrate</h2>
+    <div class="container grid">
+        <div class="description grid-item">
+            <p>
+                <span class="app-name">Workrate</span> to aplikacja webowa zrealizowana w dwuosobowym zespole, w
+                ramach
+                projektu zaliczeniowego kursu „Zaawansowane technologie webowe”. Głównym założeniem projektu było
+                stworzenie
+                interaktywnego i intuicyjnego kalendarza, z którego użytkownik będzie mógł korzystać do organizacji
+                swojego czasu.
+                W projekcie zdecydowano się wykorzystać
+                <u><a href="https://fullcalendar.io/" style="color: var(--first-color);">FullCalendar</a></u>.
+            </p>
+            <div class="link-wrapper">
+                <a href="https://github.com/rasiaq/Workrate" class="link" target="_blank">
+                    <i class='bx bxl-github icon'></i>
+                    Repozytorium na Githubie
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="../../assets/workrate/icon.png" alt="" class="app-icon">
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="container grid">
+        <div class="description grid-item bottom-section">
+            <p>
+                Po wcześniejszym przygotowaniu makiet w Figmie, prace implementacyje na froncie, w dużej mierze,
+                skupiały się na pracy z dokumentacją komponentu FullCalendar i jego konfiguracji w projekcie. <br>
+                Niezbędne
+                było zaimplementowanie wszystkich operacji CRUD na wydarzeniach, oraz wewnętrznych serwisów, które
+                przekazywałyby dane pomiędzy komponentami ale również komunikowały się z backendem. Ponadto, do
+                autoryzacji i autentykacji użytkownika wykorzystano oprogramowanie
+                <u><a href="https://www.keycloak.org/" style="color: var(--first-color);">Keycloak</a></u>. <br>
+                Finalnie projekt został zdockeryzowany tak, aby kontener z fronetm mógł swobodnie komunikować się z
+                kontenerami zawierającymi serwer SSO i backend.
+            </p>
+        </div>
+        <div class="description grid-item bottom-section">
+            <p>Jako jedyna osoba pracująca nad frontendem aplikacji odpowiadałem za:</p>
+            <ul>
+                <li><b>Wykonanie makiet interfejsu użytkownika</b></li>
+                <li><b>Zaimplementowanie responsywnego widoku zgodnego z wcześniej wykonanymi makietami</b></li>
+                <li><b>Skonfigurowanie komponentu FullCalendar i obsługi operacji CRUD na wydarzeniach</b></li>
+                <li><b>Wprowadzenie mechanizmu autoryzacji i autentykacji za pomocą oprogramowania Keycloak</b></li>
+                <li><b>Skonfigurowanie komunikacji z backendem</b></li>
+                <li><b>Obsługę routingu do nawigacji między komponentami</b></li>
+                <li><b>Dockeryzację frontendu</b></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <picture class="pic-wrapper">
+            <source media="(min-width: 768px)" srcset="../../assets/szlakownik/mockup.png">
+            <img src="../../assets/szlakownik/mobile-mockup.png" alt="" class="mockup pic-wrapper">
+        </picture>
+    </div>
+</div>

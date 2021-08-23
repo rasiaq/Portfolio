@@ -18,6 +18,7 @@ import { SzlakownikComponent } from './_projects/szlakownik/szlakownik.component
 import { PlantRunnerComponent } from './_projects/plant-runner/plant-runner.component';
 import { LawFirmWebsiteComponent } from './_projects/law-firm-website/law-firm-website.component';
 import { NetalyzeComponent } from './_projects/netalyze/netalyze.component';
+import { WorkrateComponent } from './_projects/workrate/workrate.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { NetalyzeComponent } from './_projects/netalyze/netalyze.component';
     SzlakownikComponent,
     PlantRunnerComponent,
     LawFirmWebsiteComponent,
-    NetalyzeComponent
+    NetalyzeComponent,
+    WorkrateComponent
   ],
   imports: [
     BrowserModule,
